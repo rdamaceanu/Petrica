@@ -1,0 +1,2 @@
+# Petrica
+Petrica the assistant 
