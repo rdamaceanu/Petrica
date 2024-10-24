@@ -1,5 +1,6 @@
 # CRUD operations for week 
 from .dbConnection import get_db_connection
+from psycopg2.extras import RealDictConnection
 
 def create_week(start_date, end_date):
     conn = get_db_connection()

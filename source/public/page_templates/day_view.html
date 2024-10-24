@@ -1,0 +1,31 @@
+<!-- templates/day_view.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Petrica - Day View</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Left Column: Journal -->
+    <div class="left column">
+        <h2>Journal</h2>
+        <textarea id="journal-editor" placeholder="Write your thoughts here..."></textarea>
+        <button id="save-journal">Save</button>
+        <button id="save-template">Save as Template</button>
+    </div>
+
+    <!-- Right Column: Day Parts -->
+    <div class="right column">
+        <h2>Day Parts</h2>
+        <div id="dayparts-container">
+            <!-- Day parts will be dynamically loaded here -->
+        </div>
+    </div>
+</div>
+
+<script src="../static/js/scripts.js"></script>
+</body>
+</html>

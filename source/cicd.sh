@@ -1,1 +1,1 @@
-pip install dbconnection psycopg2
+pip install psycopg2 Flask

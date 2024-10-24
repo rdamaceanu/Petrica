@@ -1,0 +1,77 @@
+/* static/css/styles.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Columns */
+.column {
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.left {
+    width: 50%;
+    background-color: #f9f9f9;
+}
+
+.right {
+    width: 50%;
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+}
+
+/* Journal */
+#journal-editor {
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+}
+
+#save-journal {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#save-template {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Day Parts */
+#dayparts-container {
+    margin-top: 20px;
+}
+
+.daypart {
+    margin-bottom: 20px;
+}
+
+.daypart h3 {
+    margin-bottom: 10px;
+}
+
+.minitask {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.minitask li {
+    margin-bottom: 5px;
+}
